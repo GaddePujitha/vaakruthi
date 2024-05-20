@@ -16,6 +16,8 @@ public class Project1 extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		String lat= req.getParameter("lat");
 		String lon= req.getParameter("lon");
+		String lat1= req.getParameter("lat1");
+		
 		
 		JSONObject weather =new JSONObject();
 		JSONArray arrayValues = new JSONArray();
